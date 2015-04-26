@@ -1,0 +1,89 @@
+{% load i18n %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/base.css" type="text/css" />
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.ui.all.css">
+	<script src="{{ STATIC_URL }}js/jquery-1.10.2.js"></script>
+	<script src="{{ STATIC_URL }}js/ui/jquery.ui.core.js"></script>
+	<script src="{{ STATIC_URL }}js/ui/jquery.ui.widget.js"></script>
+	<script src="{{ STATIC_URL }}js/ui/jquery.ui.datepicker.js"></script>
+	<script>
+	$(function() {
+		$( "#datepicker" ).datepicker();
+	});
+	</script>
+
+
+
+
+</head>
+
+<body>
+  <!-- Main Menu -->
+  <div id="body">
+    <div id="header">
+      <div id="logo">borderless</div>
+      <div id="navigation">
+        <ul class="mainMenu">
+          <li>
+            {% if menu == "dashboard" %}
+              <a class="selected" href="/">
+            {% else %}
+              <a href="/dashboard">
+            {% endif %}
+                Dashboard
+              </a>
+          </li>
+          <li>
+            {% if menu == "websites" %}
+              <a class="selected" href="/">
+            {% else %}
+              <a href="/websites">
+            {% endif %}
+                Websites
+              </a>
+          </li>
+          <li>
+            {% if menu == "settings" %}
+              <a class="selected" href="/">
+            {% else %}
+              <a href="/settings">
+            {% endif %}
+                Settings
+              </a>
+          </li>
+        </ul> <!-- /mainNav -->
+      </div> <!-- /navigation -->
+    </div> <!-- /header -->
+
+    <div id="container">
+    <div id="controlPane">
+        <p>Controls</p>
+
+        <p>Date: <input type="text" id="datepicker"></p>
+
+        <form action="/" method="post" class="datePicker">{% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Apply" />
+        </form>
+    </div>
+
+    <div id="contents" style="float:left">
+        {% block content %}{% endblock %}
+    </div>
+
+    </div>
+
+  </div> <!-- /body -->
+</body>
+</html>
+
+
+
+

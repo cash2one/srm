@@ -1,0 +1,67 @@
+positionly.com
+User: dan@emizr.com
+Password: charlene3
+
+Please contact Prashant Sharma regarding current projects:
+Prash@emizr.com
+Walter is our CTO and will assign you new projects.
+Sent from my BlackBerry 10 smartphone on the Rogers network.
+
+Here is the login for our pythonanywhere account.
+UN : dan@emizr.com
+PW: charlene3
+
+
+We would like to consider increasing you hours.  Can you please send a report of your accomplishments every 5 hours to:
+prash@emizr.com
+walter@emizr.com
+dan@emizr.com
+
+Dan daniel@borderless.ca
+
+Database on pythonanywhere:
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'dsyhan$rank_monitor',  # Or path to database file if using sqlite3.
+        'USER': 'dsyhan',  # Not used with sqlite3.
+        'PASSWORD': 'rank_monitor',  # Not used with sqlite3.
+        'HOST': '127.0.0.1',  # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '',  # Set to empty string for default. Not used with sqlite3.
+        'OPTIONS': {"init_command": "SET storage_engine=INNODB", },
+        # DATABASE_OPTIONS = { "init_command": "SET storage_engine=INNODB, SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED", }
+    }
+}
+
+superuser: sergey, dsyhan
+password: sergey, dsyhan
+
+mysql -udsyhan -hmysql.server -p 
+
+source virtualenvwrapper.sh
+# mkvirtualenv django16 --system-site-packages
+workon  django16
+The prompt will look like
+	(django16)14:51 ~ $
+Testing:
+	which pip
+The answer will be like
+	/home/virtualenvdemo/.virtualenvs/django16/bin/pip
+
+
+	sys.path.append('/home/dsyhan/SiteRankMonitor/') 
+export PATH=$PATH:/home/dsyhan/SiteRankMonitor 
+echo "$PATH" 
+export PYTHONPATH=$PYTHONPATH:/home/dsyhan/SiteRankMonitor 
+
+#!/bin/sh
+source virtualenvwrapper.sh
+workon  django16
+export PYTHONPATH=$PYTHONPATH:/home/dsyhan/SiteRankMonitor 
+cd /home/dsyhan/SiteRankMonitor/rank_engine
+python rank_monitor.py
+
+check the server address - mysql.server
+
+
+

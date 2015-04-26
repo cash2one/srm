@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% load math_filters %}
+
+{% block content %}
+
+<div class="sectionSegment">
+  <div class="sectionHeader">
+    <h3>Website positions</h3>
+  </div> <!-- /sectionHeader -->
+    <table >
+        <thead b>
+          <tr>
+            <th scope="col" rowspan="2" class="tblHeader">Keywords</th>
+            <th scope="col"  colspan="2" class="tblHeader">Position on {{ date1 }}</th>
+            <th scope="col" colspan="2" class="tblHeader">Position on {{ date2 }}</th>
+          </tr>
+          <tr>
+              <th scope="col" width="100" class="tblHeader">Page</th>
+              <th scope="col" width="100" class="tblHeader">Pos. in page</th>
+              <th scope="col" width="100" class="tblHeader">Page</th>
+              <th scope="col" width="100" class="tblHeader">Pos. in page</th>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- WEBSITE POSITIONS START -->
+          {% for r in rows_lst %}
+            {% ifchanged r.group_name %}
+
+                  <tr>
+                  <td  colspan="5" class="tblGroupHeader">
+                          <div>
+                              <span>
+                                  Group {{ r.group_name }}
+                              </span>
+                          </div> <!-- /websiteDetails -->
+                  </td>
+                </tr>
+            {% endifchanged %}
+            {% ifchanged r.title %}
+                <tr>
+                  <td  colspan="5" class="tblSiteHeader">
+                          <div>
+                              <span>
+                                  Website {{ r.title }}
+                              </span>
+                          </div> <!-- /websiteDetails -->
+                  </td>
+                </tr>
+            {% endifchanged %}
+
+            <tr>
+              <td  class="tblCell">
+                      <div>
+                          <span>
+                              {{ r.keywords }}
+                          </span>
+                      </div>
+              </td>
+
+              {% if r.pos1 %}
+                {% if r.pos1 >= 0 %} {# draw page num and pos in page #}
+                  <td  class="tblNumCell">
+                    <div>
+                      <span>
+                        {{ r.pos1|div:r.res_cnt|add:1 }}
+                      </span>
+                    </div>
+                   </td>
+                   <td  class="tblNumCell">
+                     <div>
+                       <span>
+                         {{ r.pos1|rem:r.res_cnt|add:1 }}
+                       </span>
+                     </div>
+                  </td>
+                {% else %}{# site not found r.pos1<0#}
+                  <td  colspan="2" class="tblNumCell">
+                    <span>
+                      out of {{ r.pos1|neg|div:r.res_cnt }} pages
+                    </span>
+                  </td>
+                {% endif %}
+              {% else %} {# draw empty cells #}
+                <td  class="tblNumCell">
+                </td>
+                <td  class="tblNumCell">
+                </td>
+              {% endif %}
+
+              {% if r.pos2 %}
+                {% if r.pos2 >= 0 %} {# draw page num and pos in page #}
+                  <td  class="tblNumCell">
+                    <div>
+                      <span>
+                        {{ r.pos2|div:r.res_cnt|add:1 }}
+                      </span>
+                    </div>
+                   </td>
+                   <td  class="tblNumCell">
+                     <div>
+                       <span>
+                         {{ r.pos2|rem:r.res_cnt|add:1 }}
+                       </span>
+                     </div>
+                  </td>
+                {% else %}{# site not found r.pos2<0#}
+                  <td  colspan="2" class="tblNumCell">
+                    <span>
+                      out of {{ r.pos2|neg|div:r.res_cnt }} pages
+                    </span>
+                  </td>
+                {% endif %}
+              {% else %} {# draw empty cells #}
+                <td  colspan="2" class="tblNumCell">
+                </td>
+              {% endif %}
+            </tr>
+
+          {% endfor %}
+          <!-- WEBSITE POSITIONS END -->
+        </tbody>
+  </table> <!-- /commonTable -->
+</div> <!-- /sectionSegment -->
+
+
+{% endblock %}

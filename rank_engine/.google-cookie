@@ -1,0 +1,5 @@
+#LWP-Cookies-2.0
+Set-Cookie3: NID="67=KrEe_BcRkNPJsyfktpHT-o0j2lj9i9j1ZIDeTmMGwkMh2hbxbPEjunoaCiFrocTR5Xb73qddLOvgaMcxY7_DLlLtHsiec74oq8-li5xBYkzse3LExqYcJO3gWyDAuW00"; path="/"; domain=".google.ca"; path_spec; domain_dot; expires="2014-12-04 14:05:58Z"; HttpOnly=None; version=0
+Set-Cookie3: PREF="ID=d0cabd01afeb6e21:U=ed0ad38a110f5420:FF=0:TM=1401890733:LM=1401890758:S=mp7RqUpPxwiqX2_0"; path="/"; domain=".google.ca"; path_spec; domain_dot; expires="2016-06-03 14:05:58Z"; version=0
+Set-Cookie3: NID="67=W74cB_DsW0LGzIwt_QL7hWMEwYwWd6xXJOtGw1KEhiTmHLxeisYCpmFBG8kong4eVeByhwYd5a2vVcpZSnj0U8RoiEvNg2p2lMTSWj1-PjYETbSxkRREhmLKQVnjonHD"; path="/"; domain=".google.com"; path_spec; domain_dot; expires="2014-11-20 15:46:45Z"; HttpOnly=None; version=0
+Set-Cookie3: PREF="ID=6deae2df730bbe17:U=ce724f1212040269:FF=0:TM=1400687184:LM=1400687205:S=MKZkCxvYfV5WoTih"; path="/"; domain=".google.com"; path_spec; domain_dot; expires="2016-05-20 15:46:45Z"; version=0

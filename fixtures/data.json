@@ -1,0 +1,1505 @@
+[
+{
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "permission", 
+        "name": "permission", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "group", 
+        "name": "group", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "user", 
+        "name": "user", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "contenttype", 
+        "name": "content type", 
+        "app_label": "contenttypes"
+    }
+},
+{
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "session", 
+        "name": "session", 
+        "app_label": "sessions"
+    }
+},
+{
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "site", 
+        "name": "site", 
+        "app_label": "sites"
+    }
+},
+{
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "logentry", 
+        "name": "log entry", 
+        "app_label": "admin"
+    }
+},
+{
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "squery", 
+        "name": "squery", 
+        "app_label": "app_model"
+    }
+},
+{
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "website", 
+        "name": "website", 
+        "app_label": "app_model"
+    }
+},
+{
+    "pk": 10, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "squerywebsitemm", 
+        "name": "squery website mm", 
+        "app_label": "app_model"
+    }
+},
+{
+    "pk": 11, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "websiterank", 
+        "name": "website rank", 
+        "app_label": "app_model"
+    }
+},
+{
+    "pk": 12, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "migrationhistory", 
+        "name": "migration history", 
+        "app_label": "south"
+    }
+},
+{
+    "pk": 14, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "website", 
+        "name": "website", 
+        "app_label": "srm_model"
+    }
+},
+{
+    "pk": 16, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "websiterank", 
+        "name": "website rank", 
+        "app_label": "srm_model"
+    }
+},
+{
+    "pk": 17, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "searchgroup", 
+        "name": "search group", 
+        "app_label": "south_site_rank"
+    }
+},
+{
+    "pk": 18, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "keywords", 
+        "name": "keywords", 
+        "app_label": "south_site_rank"
+    }
+},
+{
+    "pk": 19, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "website", 
+        "name": "website", 
+        "app_label": "south_site_rank"
+    }
+},
+{
+    "pk": 20, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "websiterank", 
+        "name": "website rank", 
+        "app_label": "south_site_rank"
+    }
+},
+{
+    "pk": 21, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "searchgroup", 
+        "name": "search group", 
+        "app_label": "srm_model"
+    }
+},
+{
+    "pk": 22, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "keywords", 
+        "name": "keywords", 
+        "app_label": "srm_model"
+    }
+},
+{
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+        "domain": "example.com", 
+        "name": "example.com"
+    }
+},
+{
+    "pk": 1, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-06-02T16:21:36Z", 
+        "app_name": "srm_model", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 13, 
+    "model": "srm_model.searchgroup", 
+    "fields": {
+        "lang": "en", 
+        "top_level_domain": "com", 
+        "results_per_page": 10, 
+        "results_cnt": 100, 
+        "group_name": "Aroundafricasafari"
+    }
+},
+{
+    "pk": 14, 
+    "model": "srm_model.searchgroup", 
+    "fields": {
+        "lang": "en", 
+        "top_level_domain": "com", 
+        "results_per_page": 10, 
+        "results_cnt": 100, 
+        "group_name": "Ashlarlandscapes"
+    }
+},
+{
+    "pk": 15, 
+    "model": "srm_model.searchgroup", 
+    "fields": {
+        "lang": "en", 
+        "top_level_domain": "ca", 
+        "results_per_page": 10, 
+        "results_cnt": 100, 
+        "group_name": "Autoglassrepairs"
+    }
+},
+{
+    "pk": 16, 
+    "model": "srm_model.searchgroup", 
+    "fields": {
+        "lang": "en", 
+        "top_level_domain": "com", 
+        "results_per_page": 10, 
+        "results_cnt": 100, 
+        "group_name": "Bodybijou"
+    }
+},
+{
+    "pk": 17, 
+    "model": "srm_model.searchgroup", 
+    "fields": {
+        "lang": "en", 
+        "top_level_domain": "com", 
+        "results_per_page": 10, 
+        "results_cnt": 100, 
+        "group_name": "Bountifulfruitarrangements"
+    }
+},
+{
+    "pk": 18, 
+    "model": "srm_model.searchgroup", 
+    "fields": {
+        "lang": "en", 
+        "top_level_domain": "com", 
+        "results_per_page": 10, 
+        "results_cnt": 100, 
+        "group_name": "Brinkleydentalgroup"
+    }
+},
+{
+    "pk": 19, 
+    "model": "srm_model.searchgroup", 
+    "fields": {
+        "lang": "en", 
+        "top_level_domain": "ca", 
+        "results_per_page": 10, 
+        "results_cnt": 100, 
+        "group_name": "Ccproducts"
+    }
+},
+{
+    "pk": 98, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "African Safaris", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 99, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "African Safari Tours", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 100, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Africa Safaris", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 101, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Safaris in Africa", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 102, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Safaris in Uganda", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 103, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Safari Tours Uganda", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 104, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Uganda Safaris", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 105, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Uganda Safari Tours ", 
+        "search_group": 13
+    }
+},
+{
+    "pk": 106, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "ancaster landscaping", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 107, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "backyard design", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 108, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "burlington landscaping", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 109, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "burlington landscaping company", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 110, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "landscape design", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 111, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "landscaping", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 112, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "landscaping companies", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 113, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "mississauga landscaping", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 114, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "oakville landscaping", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 115, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "oakville landscaping company", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 116, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "snow and ice removal", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 117, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "snow removal burlington", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 118, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "snow removal service oakville", 
+        "search_group": 14
+    }
+},
+{
+    "pk": 119, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Auto Glass Repair Toronto", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 120, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "AutoGlass Repair Toronto", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 121, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Auto Glass Toronto", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 122, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "AutoGlass Toronto", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 123, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Toronto AutoGlass", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 124, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Toronto Auto Glass ", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 125, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Toronto Auto Glass Repair", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 126, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Toronto AutoGlass Repair", 
+        "search_group": 15
+    }
+},
+{
+    "pk": 127, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "belly chain", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 128, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "belly chains", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 129, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "body chain", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 130, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "body chain jewelry", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 131, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "body chain necklace", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 132, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "body chains", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 133, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "body jewelry", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 134, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "body necklace", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 135, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "bracelet with ring", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 136, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "bracelet with ring attached", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 137, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "finger bracelet", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 138, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "handmade jewelry", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 139, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "jewelry online", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 140, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "leg chain", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 141, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "ringalet", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 142, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "ring bracelet", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 143, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "shoulder necklace", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 144, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "unique jewelry", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 145, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "waist chain", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 146, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "waist chains", 
+        "search_group": 16
+    }
+},
+{
+    "pk": 147, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "edible arrangements", 
+        "search_group": 17
+    }
+},
+{
+    "pk": 148, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "edible fruit arrangements", 
+        "search_group": 17
+    }
+},
+{
+    "pk": 149, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "fresh fruit basket", 
+        "search_group": 17
+    }
+},
+{
+    "pk": 150, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Fruit Baskets Toronto", 
+        "search_group": 17
+    }
+},
+{
+    "pk": 151, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "fruit bouquets", 
+        "search_group": 17
+    }
+},
+{
+    "pk": 152, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "Toronto Edible Fruit Arrangements", 
+        "search_group": 17
+    }
+},
+{
+    "pk": 153, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "best dentist in brampton", 
+        "search_group": 18
+    }
+},
+{
+    "pk": 154, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "brampton dentist", 
+        "search_group": 18
+    }
+},
+{
+    "pk": 155, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "dentist brampton", 
+        "search_group": 18
+    }
+},
+{
+    "pk": 156, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "dentist in brampton", 
+        "search_group": 18
+    }
+},
+{
+    "pk": 157, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "dentists in brampton", 
+        "search_group": 18
+    }
+},
+{
+    "pk": 158, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "concrete expansion joint filler", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 159, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "concrete sealer", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 160, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "de-icing solution", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 161, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "de-icing solutions", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 162, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "expansion joint filler", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 163, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "liquid de-icer", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 164, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "liquid de-icers", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 165, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "natural stone", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 166, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "natural stone ledgestone", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 167, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "natural stone sealer", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 168, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "natural stone toronto", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 169, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "natural thin stone veneers", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 170, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "paving stone sealer", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 171, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "stone veneer panels", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 172, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "stone veneers toronto", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 173, 
+    "model": "srm_model.keywords", 
+    "fields": {
+        "keywords": "winter products ", 
+        "search_group": 19
+    }
+},
+{
+    "pk": 12, 
+    "model": "srm_model.website", 
+    "fields": {
+        "url": "http://aroundafricasafari.com", 
+        "search_group": 13, 
+        "title": "Aroundafricasafari.com"
+    }
+},
+{
+    "pk": 13, 
+    "model": "srm_model.website", 
+    "fields": {
+        "url": "http://ashlarlandscapes.com", 
+        "search_group": 14, 
+        "title": "Ashlarlandscapes.com"
+    }
+},
+{
+    "pk": 14, 
+    "model": "srm_model.website", 
+    "fields": {
+        "url": "http://autoglassrepairs.ca", 
+        "search_group": 15, 
+        "title": "Autoglassrepairs.ca"
+    }
+},
+{
+    "pk": 15, 
+    "model": "srm_model.website", 
+    "fields": {
+        "url": "http://bodybijou.com", 
+        "search_group": 16, 
+        "title": "Bodybijou.com"
+    }
+},
+{
+    "pk": 16, 
+    "model": "srm_model.website", 
+    "fields": {
+        "url": "http://bountifulfruitarrangements.com", 
+        "search_group": 17, 
+        "title": "Bountifulfruitarrangements.com"
+    }
+},
+{
+    "pk": 17, 
+    "model": "srm_model.website", 
+    "fields": {
+        "url": "http://brinkleydentalgroup.com", 
+        "search_group": 18, 
+        "title": "Brinkleydentalgroup.com"
+    }
+},
+{
+    "pk": 18, 
+    "model": "srm_model.website", 
+    "fields": {
+        "url": "http://Ccproducts.ca", 
+        "search_group": 19, 
+        "title": "Ccproducts.ca"
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_permission", 
+        "name": "Can add permission", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_permission", 
+        "name": "Can change permission", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_permission", 
+        "name": "Can delete permission", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_group", 
+        "name": "Can add group", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_group", 
+        "name": "Can change group", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_group", 
+        "name": "Can delete group", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_user", 
+        "name": "Can add user", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_user", 
+        "name": "Can change user", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_user", 
+        "name": "Can delete user", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_contenttype", 
+        "name": "Can add content type", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_contenttype", 
+        "name": "Can change content type", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_contenttype", 
+        "name": "Can delete content type", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_session", 
+        "name": "Can add session", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_session", 
+        "name": "Can change session", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_session", 
+        "name": "Can delete session", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_site", 
+        "name": "Can add site", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_site", 
+        "name": "Can change site", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_site", 
+        "name": "Can delete site", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_logentry", 
+        "name": "Can add log entry", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_logentry", 
+        "name": "Can change log entry", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_logentry", 
+        "name": "Can delete log entry", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_squery", 
+        "name": "Can add squery", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_squery", 
+        "name": "Can change squery", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_squery", 
+        "name": "Can delete squery", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_website", 
+        "name": "Can add website", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_website", 
+        "name": "Can change website", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_website", 
+        "name": "Can delete website", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_squerywebsitemm", 
+        "name": "Can add squery website mm", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_squerywebsitemm", 
+        "name": "Can change squery website mm", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_squerywebsitemm", 
+        "name": "Can delete squery website mm", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 31, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_websiterank", 
+        "name": "Can add website rank", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 32, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_websiterank", 
+        "name": "Can change website rank", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 33, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_websiterank", 
+        "name": "Can delete website rank", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 34, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_migrationhistory", 
+        "name": "Can add migration history", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 35, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_migrationhistory", 
+        "name": "Can change migration history", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 36, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_migrationhistory", 
+        "name": "Can delete migration history", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 40, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_website", 
+        "name": "Can add website", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 41, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_website", 
+        "name": "Can change website", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 42, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_website", 
+        "name": "Can delete website", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 46, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_websiterank", 
+        "name": "Can add website rank", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 47, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_websiterank", 
+        "name": "Can change website rank", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 48, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_websiterank", 
+        "name": "Can delete website rank", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 49, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_searchgroup", 
+        "name": "Can add search group", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 50, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_searchgroup", 
+        "name": "Can change search group", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 51, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_searchgroup", 
+        "name": "Can delete search group", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 52, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_keywords", 
+        "name": "Can add keywords", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 53, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_keywords", 
+        "name": "Can change keywords", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 54, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_keywords", 
+        "name": "Can delete keywords", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 55, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_website", 
+        "name": "Can add website", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 56, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_website", 
+        "name": "Can change website", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 57, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_website", 
+        "name": "Can delete website", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 58, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_websiterank", 
+        "name": "Can add website rank", 
+        "content_type": 20
+    }
+},
+{
+    "pk": 59, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_websiterank", 
+        "name": "Can change website rank", 
+        "content_type": 20
+    }
+},
+{
+    "pk": 60, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_websiterank", 
+        "name": "Can delete website rank", 
+        "content_type": 20
+    }
+},
+{
+    "pk": 61, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_searchgroup", 
+        "name": "Can add search group", 
+        "content_type": 21
+    }
+},
+{
+    "pk": 62, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_searchgroup", 
+        "name": "Can change search group", 
+        "content_type": 21
+    }
+},
+{
+    "pk": 63, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_searchgroup", 
+        "name": "Can delete search group", 
+        "content_type": 21
+    }
+},
+{
+    "pk": 64, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_keywords", 
+        "name": "Can add keywords", 
+        "content_type": 22
+    }
+},
+{
+    "pk": 65, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_keywords", 
+        "name": "Can change keywords", 
+        "content_type": 22
+    }
+},
+{
+    "pk": 66, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_keywords", 
+        "name": "Can delete keywords", 
+        "content_type": 22
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "sergey", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2014-05-26T13:33:16Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$cMPeGxZMQdKd$ecbPbN7TXdeVSHhogaNQ+qaQbAhYnsoHeRi8dSaRkeM=", 
+        "email": "freelancer.sergey@gmail.com", 
+        "date_joined": "2014-05-26T13:33:16Z"
+    }
+}
+]

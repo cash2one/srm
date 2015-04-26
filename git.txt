@@ -1,0 +1,12 @@
+
+git clone https://madhav_yadav@bitbucket.org/emizr/qrcwerx.git
+cd webnncom/ 
+git init 
+git remote add origin https://madhav_yadav@bitbucket.org/emizr/www.webnn.com.git
+git add -A 
+git commit -m "script for webnn" 
+git config --global user.name "madhav" 
+git commit -m "script for webnn" 
+git push -u origin master  
+
+ 
